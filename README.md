@@ -6,7 +6,7 @@
 This is a PowerShell radar script for *Lethal Company*. It scans the game’s log file and announces nearby enemies in real time using text-to-speech.
 
 ---
-
+## UNSTABLE MOST LIKLY WANT WORK
 ## Instructions
 
 1. **Install BepInEx**  
