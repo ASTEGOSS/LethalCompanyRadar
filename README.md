@@ -8,7 +8,7 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
 ---
 
 ## Instructions
-
+## for moded
 1. **Install BepInEx**  
    You need to have **BepInEx** from Thunderstore. (It might work on other clients, but BepInEx is recommended.)
 
@@ -22,7 +22,9 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
      LETHALCOMPANY/PROFILES/...PROFILE_YOU_USE.../BEPINEX/LOGOUTPUT.LOG
      ```  
    - Drag `LOGOUTPUT.LOG` into the PowerShell window when prompted and press **Enter**.
-
+## for vanila 
+   -same thing but provide Player.log found usually on (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
+   
 4. **Ensure System Volume is Up**  
    The script uses text-to-speech to announce enemies.
 
@@ -32,7 +34,6 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
 ---
 
 ## Important Notes
-
 - You may **view, fork, and comment** on this script.  
 - Do **NOT edit or redistribute** the main repository files claiming authorship.  
 - All official updates will come from the original repository.
