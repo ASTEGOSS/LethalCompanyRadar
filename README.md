@@ -23,7 +23,16 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
      ```  
    - Drag `LOGOUTPUT.LOG` into the PowerShell window when prompted and press **Enter**.
 ## for vanila 
-   -same thing but provide Player.log found usually on (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
+   **Run the Script**  
+   - Open the script by **left-clicking it** and selecting **Run with PowerShell**.  
+   - If prompted about execution policies, allow scripts to run.
+
+3. **Provide the Log File Path(Player.Log)**
+   
+   - Open your Lethal Company profile folder:  
+     ```
+       (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
+     ```   
    
 4. **Ensure System Volume is Up**  
    The script uses text-to-speech to announce enemies.
