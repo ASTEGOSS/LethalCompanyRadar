@@ -8,7 +8,7 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
 ---
 
 ## Instructions
-## for moded
+## for moded (not implomented yet)
 1. **Install BepInEx**  
    You need to have **BepInEx** from Thunderstore. (It might work on other clients, but BepInEx is recommended.)
 
