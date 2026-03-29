@@ -37,8 +37,6 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
 4. **Ensure System Volume is Up**  
    The script uses text-to-speech to announce enemies.
 
-5. **Enjoy**  
-   The radar will scan every 35 seconds and announce enemies as they appear.
 
 ---
 
