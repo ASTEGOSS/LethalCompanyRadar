@@ -33,7 +33,7 @@ This is a PowerShell radar script for *Lethal Company*. It scans the game’s lo
      ```
        (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
      ```   
-   
+   - or just search AppData and go from there
 4. **Ensure System Volume is Up**  
    The script uses text-to-speech to announce enemies.
 
