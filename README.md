@@ -31,7 +31,7 @@ YOU CAN JUST READ WHAT IT WANTS WHEN YOU OPEN IT "CHECK HOW TO OPEN CORRECTLY UN
      ```
        (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
      ```   
-   - or just search AppData and go from there
+   - or just search AppData and go from there(if you have more than 1 disk most likly its on driver c)
 4. **Ensure System Volume is Up**  
    The script uses text-to-speech to announce enemies.
 
