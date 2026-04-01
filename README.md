@@ -1,15 +1,15 @@
 # Lethal Company Radar Script
 
-⚠️ **Author:** ASTEGOSS  
+ **Author:** ASTEGOSS  
 **GitHub:** [ASTEGOSS](https://github.com/YourUsername/LethalCompanyRadar)  
 
 This is a PowerShell radar script for *Lethal Company*. It scans the game’s log file and announces nearby enemies in real time using text-to-speech.
 
 ---
 
-## Instructions
+⚠️## Instructions
 YOU CAN JUST READ WHAT IT WANTS WHEN YOU OPEN IT "CHECK HOW TO OPEN CORRECTLY UNDER"
-## for moded (not implomented yet)
+## for moded
 1. **Install BepInEx**  
    You need to have **BepInEx** from Thunderstore. (It might work on other clients, but BepInEx is recommended.)
 
@@ -17,11 +17,8 @@ YOU CAN JUST READ WHAT IT WANTS WHEN YOU OPEN IT "CHECK HOW TO OPEN CORRECTLY UN
    - Open the script by **left-clicking it** and selecting **Run with PowerShell**.  
    - If prompted about execution policies, allow scripts to run.
 
-3. **Provide the Log File Path**  
-   - Open your Lethal Company profile folder:  
-     ```
-     LETHALCOMPANY/PROFILES/...PROFILE_YOU_USE.../BEPINEX/LOGOUTPUT.LOG
-     ```  
+3. **Provide the Log File Path**
+   - open thunderstore select a profile go to settings go to browse data folder lethal company/profiles/select your profile/bepinex/logoutput.log
    - Drag `LOGOUTPUT.LOG` into the PowerShell window when prompted and press **Enter**.
 ## for vanila 
    **Run the Script**  
