@@ -1,5 +1,5 @@
 # Lethal Company Radar Script
-PRO-SUPPORTER VERSION MUCH AT: https://ategoss.gumroad.com/l/LethalRadar
+PRO-SUPPORTER VERSION AT: https://ategoss.gumroad.com/l/LethalRadar
  **Author:** ASTEGOSS  
 **GitHub:** [ASTEGOSS](https://github.com/ASTEGOSS)  
 
