@@ -1,6 +1,6 @@
 # Lethal Company Radar Script
 PRO-SUPPORTER VERSION AT: https://ategoss.gumroad.com/l/LethalRadar
- **Author:** ASTEGOSS  
+**Author:** ASTEGOSS  
 **GitHub:** [ASTEGOSS](https://github.com/ASTEGOSS)  
 
 This is a PowerShell radar script for *Lethal Company*. It scans the game’s log file and announces nearby enemies in real time using text-to-speech.
