@@ -1,51 +1,141 @@
 # Lethal Company Radar Script
-PRO-SUPPORTER VERSION AT: https://ategoss.gumroad.com/l/LethalRadar
+
+A simple PowerShell radar script for **Lethal Company**.
+
+It reads the game log file in real time and uses text-to-speech to announce enemy spawns and useful information while you play.
+
+---
+
+## Pro / Supporter Version
+
+A Pro supporter version with a cleaner UI and extra features is available here:
+
+**LethalRadar Pro:**  
+https://ategoss.gumroad.com/l/LethalRadar
+
+The free script version will remain available on GitHub.
+
+---
+
+## Author
+
 **Author:** ASTEGOSS  
-**GitHub:** [ASTEGOSS](https://github.com/ASTEGOSS)  
-
-This is a PowerShell radar script for *Lethal Company*. It scans the game’s log file and announces nearby enemies in real time using text-to-speech.
+**GitHub:** https://github.com/ASTEGOSS
 
 ---
 
-⚠️## Instructions
-YOU CAN JUST READ WHAT IT WANTS WHEN YOU OPEN IT "CHECK HOW TO OPEN CORRECTLY UNDER"
-## for moded
-1. **Install BepInEx**  
-   You need to have **BepInEx** from Thunderstore. (It might work on other clients, but BepInEx is recommended.)
+## Features
 
-2. **Run the Script**  
-   - Open the script by **left-clicking it** and selecting **Run with PowerShell**.  
-   - If prompted about execution policies, allow scripts to run.
-
-3. **Provide the Log File Path**
-   - open thunderstore select a profile go to settings go to browse data folder lethal company/profiles/select your profile/bepinex/logoutput.log
-   - Drag `LOGOUTPUT.LOG` into the PowerShell window when prompted and press **Enter**.
-## for vanila 
-   **Run the Script**  
-   - Open the script by **left-clicking it** and selecting **Run with PowerShell**.  
-   - If prompted about execution policies, allow scripts to run.
-
-3. **Provide the Log File Path(Player.Log)**
-   
-   - Open your Lethal Company profile folder:  
-     ```
-       (%AppData%\...your user name...\LocalLow\ZeekerssRBLX\Lethal Company)
-     ```   
-   - or just search AppData and go from there(if you have more than 1 disk most likly its on driver c)
-4. **Ensure System Volume is Up**  
-   The script uses text-to-speech to announce enemies.
-
+- Reads Lethal Company log files in real time
+- Announces enemies using Windows text-to-speech
+- Works with vanilla Lethal Company
+- Works with modded profiles using BepInEx / Thunderstore logs
+- Lightweight PowerShell script
+- Free and simple to use
 
 ---
 
-## Important Notes
-- You may **view, fork, and comment** on this script.  
-- Do **NOT edit or redistribute** the main repository files claiming authorship.  
-- All official updates will come from the original repository.
+## How to Run
 
----
+Right-click or left-click the script and choose:
 
-## License
+Run with PowerShell
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
-You must credit **ASTEGOSS** when using or sharing this script.
+The script will ask you for the log file path.
+
+Drag the correct log file into the PowerShell window, press Enter, and let the script run while you play.
+
+Make sure your system volume is turned up, because the script uses text-to-speech.
+
+Setup Instructions
+For Modded Lethal Company
+
+Use this if you play through Thunderstore / BepInEx.
+
+1. Install BepInEx
+
+You need a modded profile with BepInEx installed.
+
+Thunderstore is recommended.
+
+2. Find the BepInEx Log File
+
+Open Thunderstore and follow this path:
+
+Thunderstore > Select Profile > Settings > Browse Profile Folder
+
+Then go to:
+
+BepInEx\LogOutput.log
+3. Run the Script
+
+Run the PowerShell script.
+
+When it asks for the log path, drag this file into the PowerShell window:
+
+LogOutput.log
+
+Press Enter.
+
+For Vanilla Lethal Company
+
+Use this if you play without mods.
+
+1. Find Player.log
+
+The vanilla log file is usually located here:
+
+%AppData%\..\LocalLow\ZeekerssRBLX\Lethal Company\Player.log
+
+You can also find it manually:
+
+C:\Users\YOUR_USERNAME\AppData\LocalLow\ZeekerssRBLX\Lethal Company\Player.log
+
+If you cannot see the AppData folder, enable hidden folders in Windows Explorer.
+
+2. Run the Script
+
+Run the PowerShell script.
+
+When it asks for the log path, drag this file into the PowerShell window:
+
+Player.log
+
+Press Enter.
+
+Windows PowerShell Warning
+
+Windows may ask for permission to run the script.
+
+If PowerShell blocks the script because of execution policy, you may need to allow it.
+
+You can run this in PowerShell:
+
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+Then try running the script again.
+
+Only run scripts you trust.
+
+Notes
+This is an unofficial tool for Lethal Company.
+It does not modify the game.
+It only reads the log file.
+The script uses text-to-speech, so make sure your audio is enabled.
+Official updates will come from this repository.
+Disclaimer
+
+This project is not affiliated with, endorsed by, or connected to Zeekerss or the official Lethal Company game.
+
+Lethal Company belongs to its respective owner.
+
+License
+
+This project is licensed under the MIT License.
+
+See the LICENSE
+ file for details.
+
+You may view, fork, modify, and share this project under the terms of the MIT License.
+
+Please credit ASTEGOSS and do not claim the original work as your own.
