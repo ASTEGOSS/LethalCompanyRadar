@@ -1,22 +1,10 @@
-# Lethal Company Radar Script
+# Lethal Company Radar Script/NOT WORKING FOR NOW
 
 A simple PowerShell radar script for **Lethal Company**.
 
 It reads the game log file in real time and uses text-to-speech to announce enemy spawns and useful information while you play.
 
 ---
-
-## Pro / Supporter Version
-
-A Pro supporter version with a cleaner UI and extra features is available here:
-
-**LethalRadar Pro:**  
-https://ategoss.gumroad.com/l/LethalRadar
-
-The free script version will remain available on GitHub.
-
----
-
 ## Author
 
 **Author:** ASTEGOSS  
